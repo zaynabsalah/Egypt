@@ -1,0 +1,50 @@
+html{
+    background-image: url("download.jpg");
+    background-size: cover;
+    background-repeat: none;
+}
+body{
+    background: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 , p{
+    text-align: center;
+    margin: auto;
+
+}
+label{
+    display: block;
+    margin: 1em;
+}
+input , select{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 0.3em;
+    background-color: #fbfbfb;
+    border: solid 1px #ccc;
+    resize: vertical;
+    border-radius: 10px;
+}
+input[type=checkbox], input[type= radio]{
+display: inline;
+width: auto;
+
+}
+.inline-label{
+    display: inline;
+    width: auto;
+}
+option{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+
+}
+select{
+    color: indigo;
+}
